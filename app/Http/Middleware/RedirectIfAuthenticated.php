@@ -26,6 +26,10 @@ class RedirectIfAuthenticated
                return 'admin/dashboard';
                break;
 
+               case 'vender':
+                return 'admin/vender';
+                break;
+
             case 'user':
                 return redirect('/home');
                 break;
